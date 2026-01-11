@@ -1,0 +1,19 @@
+.venv/
+carlagen/
+__pycache__/
+results/partial_information/
+
+vis/
+# # Ignore everything under vis/
+# vis/**
+
+# # Re-allow directories so negations below can match
+# !vis/**/
+
+# # Keep these filetypes
+# !vis/**/*.tex
+# !vis/**/*.pdf
+# !vis/**/*.png
+# !vis/**/*.csv
+
+models_cache/
